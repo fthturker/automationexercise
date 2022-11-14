@@ -5,6 +5,8 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import utilities.Driver;
 
+import java.util.List;
+
 public class Case12Page {
     public Case12Page() {
         PageFactory.initElements(Driver.getDriver(), this);
@@ -24,6 +26,9 @@ public class Case12Page {
 
     @FindBy(xpath = "//p[@class='text-center']//a")
     public WebElement viewCartButton;
+
+    @FindBy(xpath = "//div[@id='cart_info']")
+    public List<WebElement> productsAddView;
 
 
 }

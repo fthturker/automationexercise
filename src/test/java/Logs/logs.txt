@@ -48,3 +48,23 @@
 2022-11-14 12:06:29 INFO  Log:27 - Urunler dugmesine tiklandi
 2022-11-14 12:06:31 INFO  Log:27 - Ilk urunun uzerine gelindi ve sepete ekle tiklandi
 2022-11-14 12:06:32 INFO  Log:27 - Alisverise Devam Et dugmesine tiklandi
+2022-11-14 14:00:14 INFO  Log:11 - ---------------------------------------------------------------------------------------
+2022-11-14 14:00:14 INFO  Log:12 - ***********************         START    **************************
+2022-11-14 14:00:14 INFO  Log:13 - ---------------------------------------------------------------------------------------
+2022-11-14 14:01:05 INFO  Log:27 - Anasayfaya gidildi
+2022-11-14 14:01:05 INFO  Log:27 - Ana sayfanin basariyla gorunur oldugu dogrulandi
+2022-11-14 14:01:16 INFO  Log:27 - Urunler dugmesine tiklandi
+2022-11-14 14:01:19 INFO  Log:27 - Ilk urunun uzerine gelindi ve sepete ekle tiklandi
+2022-11-14 14:01:37 INFO  Log:27 - Alisverise Devam Et dugmesine tiklandi
+2022-11-14 14:01:40 INFO  Log:27 - Fareyi ikinci urunun uzerine getirin ve Sepete ekle yi tiklayin
+2022-11-14 14:01:57 INFO  Log:27 - Sepeti Goruntule dugmesine tiklandi
+2022-11-14 14:04:41 INFO  Log:11 - ---------------------------------------------------------------------------------------
+2022-11-14 14:04:41 INFO  Log:12 - ***********************         START    **************************
+2022-11-14 14:04:41 INFO  Log:13 - ---------------------------------------------------------------------------------------
+2022-11-14 14:07:01 INFO  Log:27 - Anasayfaya gidildi
+2022-11-14 14:07:01 INFO  Log:27 - Ana sayfanin basariyla gorunur oldugu dogrulandi
+2022-11-14 14:07:18 INFO  Log:27 - Urunler dugmesine tiklandi
+2022-11-14 14:07:21 INFO  Log:27 - Ilk urunun uzerine gelindi ve sepete ekle tiklandi
+2022-11-14 14:07:38 INFO  Log:27 - Alisverise Devam Et dugmesine tiklandi
+2022-11-14 14:07:41 INFO  Log:27 - Fareyi ikinci urunun uzerine getirin ve Sepete ekle yi tiklayin
+2022-11-14 14:07:58 INFO  Log:27 - Sepeti Goruntule dugmesine tiklandi

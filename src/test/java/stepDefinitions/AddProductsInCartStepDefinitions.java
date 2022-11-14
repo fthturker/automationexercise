@@ -3,9 +3,13 @@ package stepDefinitions;
 
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.When;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
 import pages.Case12Page;
 import utilities.Driver;
 import utilities.Log;
+
+import java.util.List;
 
 public class AddProductsInCartStepDefinitions {
     Case12Page case12Page = new Case12Page();
@@ -47,8 +51,10 @@ public class AddProductsInCartStepDefinitions {
 
     @When("Verify both products are added to Cart")
     public void verify_both_products_are_added_to_cart() {
-        // Write code here that turns the phrase above into concrete actions
-        throw new io.cucumber.java.PendingException();
+        List<WebElement> productsAddView = case12Page.productsAddView;
+        for (WebElement w :productsAddView){
+            System.out.println(w.getText());
+        }
     }
 
     @When("Verify their prices, quantity and total price")
