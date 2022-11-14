@@ -1,0 +1,9 @@
+2022-11-14 07:57:24 INFO  Log:11 - ---------------------------------------------------------------------------------------
+2022-11-14 07:57:24 INFO  Log:12 - ***********************         START    **************************
+2022-11-14 07:57:24 INFO  Log:13 - ---------------------------------------------------------------------------------------
+2022-11-14 07:57:27 INFO  Log:27 - Anasayfaya gidildi
+2022-11-14 07:57:27 INFO  Log:27 - Ana sayfanin basariyla gorunur oldugu dogrulandi
+2022-11-14 07:57:32 INFO  Log:27 - Sepet dugmesine tiklandi
+2022-11-14 07:57:34 INFO  Log:27 - Altbilgiye ilerlendi
+2022-11-14 07:57:34 INFO  Log:27 - Abonelik metni dogrulandi
+2022-11-14 07:57:36 INFO  Log:27 - Girise e-posta adresi girildi ve ok dugmesine basildi
