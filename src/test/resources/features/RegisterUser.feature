@@ -140,3 +140,5 @@ Feature: US001 Automation Exercise sayfasindaki testler yapilmalidir
 
   @aetc12
   Scenario: TC12 Add Products in cart
+
+
