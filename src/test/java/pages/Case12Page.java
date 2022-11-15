@@ -27,7 +27,7 @@ public class Case12Page {
     @FindBy(xpath = "//p[@class='text-center']//a")
     public WebElement viewCartButton;
 
-    @FindBy(xpath = "//div[@id='cart_info']")
+    @FindBy(css = ".cart_description>h4>a")
     public List<WebElement> productsAddView;
 
 

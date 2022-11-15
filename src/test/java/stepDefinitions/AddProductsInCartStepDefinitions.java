@@ -11,6 +11,8 @@ import utilities.Log;
 
 import java.util.List;
 
+
+
 public class AddProductsInCartStepDefinitions {
     Case12Page case12Page = new Case12Page();
 
@@ -51,11 +53,15 @@ public class AddProductsInCartStepDefinitions {
 
     @When("Verify both products are added to Cart")
     public void verify_both_products_are_added_to_cart() {
-        List<WebElement> productsAddView = case12Page.productsAddView;
-        for (WebElement w :productsAddView){
-            System.out.println(w.getText());
-        }
+
+
     }
+
+
+
+
+
+
 
     @When("Verify their prices, quantity and total price")
     public void verify_their_prices_quantity_and_total_price() {

@@ -137,6 +137,7 @@ Feature: US001 Automation Exercise sayfasindaki testler yapilmalidir
     And Verify text SUBSCRIPTION
     And Enter email address in input and click arrow button
     And Verify success message You have been successfully subscribed! is visible
+    And Close browser
 
   @aetc12
   Scenario: TC12 Add Products in cart
@@ -149,4 +150,5 @@ Feature: US001 Automation Exercise sayfasindaki testler yapilmalidir
     And Click View Cart button
     And Verify both products are added to Cart
     And Verify their prices, quantity and total price
+    And Close browser
 
