@@ -76,7 +76,7 @@ public class Case01Page {
     @FindBy(xpath = "//button[@class='btn btn-default']")
     public WebElement createAccountButton;
 
-    @FindBy(xpath = "//h2[@class='title text-center']")
+    @FindBy(xpath = "//b[text()='Account Created!']")
     public WebElement accountCreatedText;
 
     @FindBy(linkText = "Continue")
@@ -85,13 +85,13 @@ public class Case01Page {
     @FindBy(xpath = "//i[@class='fa fa-user']")
     public WebElement loggedUsernameText;
 
-    @FindBy(xpath = "//a[normalize-space()='Delete Account']")
+    @FindBy(xpath = "//a[text()=' Delete Account']")
     public WebElement deleteAccount;
 
     @FindBy(xpath = "//h2[@class='title text-center']")
     public WebElement deleteAccountText;
 
-    @FindBy(linkText = "Continue")
+    @FindBy(css = "[data-target=\"#deleteModal\"]")
     public WebElement deleteContinueButton;
 
 }

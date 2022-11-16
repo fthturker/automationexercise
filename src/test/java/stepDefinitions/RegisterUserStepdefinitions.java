@@ -1,6 +1,5 @@
 package stepDefinitions;
 
-import com.github.javafaker.Faker;
 import io.cucumber.java.en.Given;
 import org.junit.Assert;
 import org.openqa.selenium.Keys;
@@ -19,14 +18,17 @@ public class RegisterUserStepdefinitions {
         Log.startTestCase("");
         Driver.getDriver().get(ConfigReader.getProperty("automationexerciseUrl"));
         Log.info("Anasayfaya gidildi");
+
+
     }
 
     @Given("Verify that home page is visible successfully")
     public void verify_that_home_page_is_visible_successfully() {
-        String expectedUrl = ConfigReader.getProperty("automationexerciseUrl");
+        String expectedUrl = ConfigReader.getProperty("autoEx");
         String actualUrl = Driver.getDriver().getCurrentUrl();
         Assert.assertEquals(expectedUrl, actualUrl);
         Log.info("Ana sayfanin basariyla gorunur oldugu dogrulandi");
+
     }
 
     @Given("Click on Signup Login button")
@@ -46,10 +48,11 @@ public class RegisterUserStepdefinitions {
     public void enter_name_and_email_address() {
         Driver.waitAndSendText(case01Page.name, "Yavuz");
         Driver.wait(1);
-        Driver.waitAndSendText(case01Page.email,"yavuzturk20011@gmail.com");
+        Driver.waitAndSendText(case01Page.email, "yavuzturk20011@gmail.com");
         //actions.click(case01Page.email).sendKeys(faker.internet().emailAddress()).perform();
         Driver.wait(1);
         Log.info("Adi ve e-posta adresi girildi");
+
     }
 
     @Given("Click Signup button")
@@ -149,30 +152,31 @@ public class RegisterUserStepdefinitions {
     @Given("Verify that Logged in as username is visible")
     public void verify_that_logged_in_as_username_is_visible() {
         Assert.assertTrue(case01Page.loggedUsernameText.isDisplayed());
+        Driver.wait(1);
         Log.info("Kullanici adi olarak oturum acildi ifadesinin gorunur oldugu dogrulandi");
     }
 
     @Given("Click Delete Account button")
     public void click_delete_account_button() {
-       // Driver.waitAndClick(case01Page.deleteAccount, 1);
+        Driver.waitAndClick(case01Page.deleteAccount, 1);
         Driver.wait(1);
         Log.info("Hesabi Sil dugmesi tiklandi");
     }
 
     @Given("Verify that ACCOUNT DELETED! is visible and click Continue button")
     public void verify_that_account_deleted_is_visible_and_click_continue_button() {
-       // String deleteAccountTextText = case01Page.deleteAccountText.getText();
-       // Assert.assertTrue(deleteAccountTextText.contains("ACCOUNT DELETED!"));
+        String deleteAccountTextText = case01Page.deleteAccountText.getText();
+        Assert.assertTrue(deleteAccountTextText.contains("ACCOUNT DELETED!"));
         Driver.wait(2);
         Log.info("Hesabi Silindi gorunur");
-       // Driver.waitAndClick(case01Page.deleteContinueButton, 1);
+        Driver.waitAndClick(case01Page.deleteContinueButton, 1);
         Driver.wait(1);
         Log.info("Devam dugmesine tiklandi");
     }
 
     @Given("Close browser")
     public void close_browser() {
-       // Driver.closeDriver();
+        Driver.closeDriver();
         Log.info("Sayfa kapatilir");
         Log.endTestCase("");
     }

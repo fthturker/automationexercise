@@ -1,29 +1,21 @@
 package stepDefinitions;
 
-import com.github.javafaker.CreditCardType;
 import com.github.javafaker.Faker;
-import io.cucumber.java.en.And;
-import io.cucumber.java.en.Given;
-import io.cucumber.java.en.Then;
-import io.cucumber.java.en.When;
+import io.cucumber.java.en.*;
 import org.junit.Assert;
 import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
 import pages.AutomationexecPages;
-
-import pages.Case01Page;
 import utilities.ConfigReader;
 import utilities.Driver;
 import utilities.Log;
 import utilities.ReUsableMethods;
 
-
 import java.util.List;
-
 
 public class AutomationExecStepDef {
 
-    Case01Page case01Page = new Case01Page();
+
     AutomationexecPages ap = new AutomationexecPages();
     static List<WebElement> urunListesi;
     static String ilkUrun;
@@ -34,125 +26,6 @@ public class AutomationExecStepDef {
     String brandProductTitle;
     String brandproductYazi;
 
-
-    @Given("kullanici {string} sayfasina gider")
-    public void kullanici_sayfasina_gider(String string) {
-        Driver.getDriver().get(ConfigReader.getProperty("autoEx"));
-    }
-
-
-    @Then("adresin dogru adres oldugunu teyit eder")
-    public void adresinDogruAdresOldugunuTeyitEder() {
-        String expectedData = "Automation Exercise";
-        String actualData = Driver.getDriver().getTitle();
-        Assert.assertTrue(expectedData.equals(actualData));
-    }
-
-    @And("kullanici signin butonuna tiklar")
-    public void kullaniciSigninButonunaTiklar() {
-        ap.headerSignUpbutonElement.click();
-    }
-
-    @Then("kullanici New User Signup yazisinin gorunur oldugunu teyit eder")
-    public void kullaniciNewUserSignupYazisininGorunurOldugunuTeyitEder() {
-        Assert.assertTrue(ap.newUsersigupYaziElement.isDisplayed());
-    }
-
-    @And("kullanici new user signup yazisi altindaki kutulara name ve email bilgilerini gire")
-    public void kullaniciNewUserSignupYazisiAltindakiKutularaNameVeEmailBilgileriniGire() {
-
-        Driver.waitAndSendText(ap.nameInputBox, "Yavuz");
-        Driver.wait(1);
-        Driver.waitAndSendText(ap.newUserEmailInputBox, "yavuzturk2011@gmail.com");
-
-        Driver.wait(1);
-        Log.info("Adi ve e-posta adresi girildi");
-    }
-
-    @Then("kullanici signup butonunu tiklar")
-    public void kullaniciSignupButonunuTiklar() {
-        ap.sigInButonElement.click();
-    }
-
-    @And("kullanici ENTER ACCOUNT INFORMATION yazisinin gorundugunu teyit eder")
-    public void kullaniciENTERACCOUNTINFORMATIONYazisininGorundugunuTeyitEder() {
-        String expectedData = "ENTER ACCOUNT INFORMATION";
-        String actualData = ap.accountInformationYaziElement.getText();
-        Assert.assertTrue(actualData.equals(expectedData));
-
-    }
-
-    @When("kullanici kayit gormunda istenilen alanlari doldurur")
-    public void kullaniciKayitGormundaIstenilenAlanlariDoldurur() {
-        Actions actions=new Actions(Driver.getDriver());
-        Driver.waitAndClick(case01Page.gender, 1);
-        Driver.wait(1);
-        actions.sendKeys(Keys.PAGE_DOWN).perform();
-        Driver.wait(1);
-        Driver.waitAndSendText(case01Page.password, "1234567");
-        Driver.wait(1);
-
-        actions.click(case01Page.days)
-                .sendKeys(Keys.TAB).sendKeys("20")
-                .sendKeys(Keys.TAB).sendKeys("May")
-                .sendKeys(Keys.TAB).sendKeys("2001")
-                .sendKeys(Keys.TAB).perform();
-        Log.info("doldurma ayrintilari girildi");
-
-/*
-
-        adress = Faker.instance().address().fullAddress();
-        actions.click(ap.titleWebElemet).sendKeys(Keys.TAB).
-                sendKeys(Keys.TAB).sendKeys(Faker.instance().internet().password()).
-                sendKeys(Keys.TAB).sendKeys(Keys.TAB).sendKeys(Keys.TAB).
-                sendKeys(Keys.TAB).sendKeys(Keys.TAB).
-                sendKeys(Keys.TAB).sendKeys(Faker.instance().name().firstName()).
-                sendKeys(Keys.TAB).sendKeys(Faker.instance().name().lastName()).
-                sendKeys(Keys.TAB).sendKeys(Keys.TAB).sendKeys(adress).
-                sendKeys(Keys.TAB).sendKeys(Keys.TAB).
-                sendKeys(Keys.TAB).sendKeys(Faker.instance().address().state()).
-                sendKeys(Keys.TAB).sendKeys(Faker.instance().address().city()).
-                sendKeys(Keys.TAB).sendKeys(Faker.instance().address().zipCode()).
-                sendKeys(Keys.TAB).sendKeys(Faker.instance().phoneNumber().cellPhone()).perform();
-
-        name = ap.createAccountNameInput.getAttribute("value");
-        adress = ap.createAccountAdressInput.getAttribute("value");
-*/
-    }
-
-    @Then("kullanici creat account butonuna basar")
-    public void kullaniciCreatAccountButonunaBasar() {
-        ap.newUseSignInButtonElement.click();
-    }
-
-    @And("kullanici ACCOUNT CREATED! yazisinin gorundugunu teyit eder")
-    public void kullaniciACCOUNTCREATEDYazisininGorundugunuTeyitEder() {
-
-        Assert.assertTrue(ap.accountCreatedYaziWebElemet.isDisplayed());
-
-    }
-
-    @When("kullanici continue butonunu tıklar")
-    public void kullaniciContinueButonunuTıklar() {
-        ap.continueButon.click();
-    }
-
-    @Then("kullanici logged in as username yazisinin gorundugunu teyit eder")
-    public void kullaniciLoggedInAsUsernameYazisininGorundugunuTeyitEder() {
-        Assert.assertTrue(ap.logInAsWebElement.isDisplayed());
-
-    }
-
-    @And("kullanici delete account butonuna basar")
-    public void kullaniciDeleteAccountButonunaBasar() {
-        ap.deleteButtonWebElement.click();
-        ap.deletepageDeleteAccountButon.click();
-    }
-
-    @When("kullanici delete account yazisinin gorundugunu teyit eder")
-    public void kullaniciDeleteAccountYazisininGorundugunuTeyitEder() {
-        Assert.assertTrue(ap.deleteAccountyaziElement.isDisplayed());
-    }
 
     @And("kullanici Login to your account yazisinin goruntugunu teyit eder")
     public void kullaniciLoginToYourAccountYazisininGoruntugunuTeyitEder() {

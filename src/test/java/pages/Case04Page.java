@@ -9,6 +9,6 @@ public class Case04Page {
     public Case04Page() {
         PageFactory.initElements(Driver.getDriver(), this);
     }
-@FindBy(xpath = "//a[normalize-space()='Logout']")
+@FindBy(xpath = "//a[text()=' Logout']")
     public WebElement logoutButton;
 }
