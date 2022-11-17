@@ -13,11 +13,6 @@ public class AutomationexecPages {
         PageFactory.initElements(Driver.getDriver(),this);
 
     }
-    @FindBy(xpath = "//a[normalize-space()='Signup / Login']")
-    public WebElement signUp;
-
-    @FindBy(xpath = "//h2[normalize-space()='New User Signup!']")
-    public WebElement newUserSignupTextElement;
 
     @FindBy(xpath = "//input[@data-qa='signup-name']")
     public WebElement name;
@@ -25,86 +20,15 @@ public class AutomationexecPages {
     @FindBy(xpath = "//input[@data-qa='signup-email']")
     public WebElement email;
 
-    @FindBy(xpath = "//button[@data-qa='signup-button']")
-    public WebElement signUpButton;
 
-    @FindBy(xpath = "//b[normalize-space()='Enter Account Information']")
-    public WebElement enterAccountInfoTextElement;
 
-    @FindBy(xpath = "(//input[@name='title'])[2]")
-    public WebElement gender;
 
-    @FindBy(xpath = "//input[@id='password']")
-    public WebElement password;
 
-    @FindBy(xpath = "//select[@id='days']")
-    public WebElement days;
-
-    @FindBy(xpath = "//input[@id='newsletter']")
-    public WebElement newsletterButon;
-
-    @FindBy(xpath = "//input[@id='optin']")
-    public WebElement uniformButon;
-
-    @FindBy(xpath = "//input[@id='first_name']")
-    public WebElement firstName;
-
-    @FindBy(xpath = "//input[@id='last_name']")
-    public WebElement lastName;
-
-    @FindBy(xpath = "//input[@id='company']")
-    public WebElement company;
-
-    @FindBy(xpath = "//input[@id='address1']")
-    public WebElement address1;
-
-    @FindBy(xpath = "//input[@id='address2']")
-    public WebElement address2;
-
-    @FindBy(xpath = "//select[@id='country']")
-    public WebElement country;
-
-    @FindBy(xpath = "//input[@id='state']")
-    public WebElement state;
-
-    @FindBy(xpath = "//input[@id='city']")
-    public WebElement city;
-
-    @FindBy(xpath = "//input[@id='zipcode']")
-    public WebElement zipcode;
-
-    @FindBy(xpath = "//input[@id='mobile_number']")
-    public WebElement mobileNumber;
-
-    @FindBy(xpath = "//button[@class='btn btn-default']")
-    public WebElement createAccountButton;
-
-    @FindBy(xpath = "//h2[@class='title text-center']")
-    public WebElement accountCreatedText;
-
-    @FindBy(linkText = "Continue")
-    public WebElement continueButon;
-
-    @FindBy(xpath = "//i[@class='fa fa-user']")
-    public WebElement loggedUsernameText;
-
-    @FindBy(xpath = "//a[normalize-space()='Delete Account']")
-    public WebElement deleteAccount;
-
-    @FindBy(xpath = "//h2[@class='title text-center']")
-    public WebElement deleteAccountText;
-
-    @FindBy(linkText = "Continue")
-    public WebElement deleteContinueButton;
 
 
     //-------------------------------------------
 
-    @FindBy(xpath = "//a[text()=' Signup / Login']")
-    public WebElement headerSignUpbutonElement;
 
-    @FindBy(xpath = "//h2[text()='New User Signup!']")
-    public WebElement newUsersigupYaziElement;
 
     @FindBy(css= "[name=\"name\"]")
     public WebElement nameInputBox;
@@ -112,32 +36,7 @@ public class AutomationexecPages {
     @FindBy(css = "[data-qa=\"signup-email\"]")
     public WebElement newUserEmailInputBox;
 
-    @FindBy(css = "[name=\"title\"]")
-    public WebElement titleWebElemet;
 
-    @FindBy(css = "[data-qa=\"create-account\"]")
-    public WebElement newUseSignInButtonElement;
-
-    @FindBy(xpath = "//b[text()='Enter Account Information']")
-    public WebElement accountInformationYaziElement;
-
-    @FindBy(css = "[data-qa=\"signup-button\"]")
-    public WebElement sigInButonElement;
-
-   // @FindBy(xpath = "//button[text()='Continue Shopping']")
-   // public WebElement continueButon;
-
-    @FindBy(xpath = "//a[text()=' Logged in as ']")
-    public WebElement logInAsWebElement;
-
-    @FindBy(xpath = "//a[text()=' Delete Account']")
-    public WebElement deleteButtonWebElement;
-
-    @FindBy(xpath = "//h1[text()='Delete Account']")
-    public WebElement deleteAccountyaziElement;
-
-    @FindBy(xpath = "//b[text()='Account Created!']")
-    public WebElement accountCreatedYaziWebElemet;
 
 
 

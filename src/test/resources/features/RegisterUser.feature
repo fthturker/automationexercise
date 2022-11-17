@@ -23,7 +23,7 @@ Feature: US001 Automation Exercise sayfasindaki testler yapilmalidir
     And Verify that ACCOUNT DELETED! is visible and click Continue button
     And Close browser
 
-  @aetc02
+  @aetc01
   Scenario: TC02 Login User with correct email and password
 
     Given Launch browser and Navigate to url "automationexerciseUrl"
@@ -37,7 +37,7 @@ Feature: US001 Automation Exercise sayfasindaki testler yapilmalidir
     And Verify that ACCOUNT DELETED! is visible
     And Close browser
 
-  @aetc03
+  @aetc01
   Scenario: TC03 Login User with incorrect email and password
 
     Given Launch browser and Navigate to url "automationexerciseUrl"
@@ -49,7 +49,7 @@ Feature: US001 Automation Exercise sayfasindaki testler yapilmalidir
     And Verify error 'Your email or password is incorrect!' is visible
     And Close browser
 
-  @aetc04
+  @aetc01
   Scenario: TC04 Logout User
     Given Launch browser and Navigate to url "automationexerciseUrl"
     When Verify that home page is visible successfully
@@ -62,7 +62,7 @@ Feature: US001 Automation Exercise sayfasindaki testler yapilmalidir
     And Verify that user is navigated to login page
     And Close browser
 
-  @aetc05
+  @aetc01
   Scenario: TC05 register User with existing email
     Given Launch browser and Navigate to url "automationexerciseUrl"
     When Verify that home page is visible successfully
@@ -73,7 +73,7 @@ Feature: US001 Automation Exercise sayfasindaki testler yapilmalidir
     And Verify error Email Address already exist! is visible
     And Close browser
 
-  @aetc06
+  @aetc01
   Scenario: TC06 Contact Us From
     Given Launch browser and Navigate to url "automationexerciseUrl"
     When Verify that home page is visible successfully
@@ -87,7 +87,7 @@ Feature: US001 Automation Exercise sayfasindaki testler yapilmalidir
     And Click 'Home' button and verify that landed to home page successfully
     And Close browser
 
-  @aetc07
+  @aetc01
   Scenario: TC07 Verify Test Cases Page
     Given Launch browser and Navigate to url "automationexerciseUrl"
     When Verify that home page is visible successfully

@@ -1,225 +1,123 @@
-2022-11-14 20:25:00 INFO  Log:11 - ---------------------------------------------------------------------------------------
-2022-11-14 20:25:00 INFO  Log:12 - ***********************         START    **************************
-2022-11-14 20:25:00 INFO  Log:13 - ---------------------------------------------------------------------------------------
-2022-11-14 20:25:05 INFO  Log:27 - Anasayfaya gidildi
-2022-11-14 20:25:05 INFO  Log:27 - Ana sayfanin basariyla gorunur oldugu dogrulandi
-2022-11-14 20:25:11 INFO  Log:27 - Urunler dugmesine tiklandi
-2022-11-14 20:25:14 INFO  Log:27 - Ilk urunun uzerine gelindi ve sepete ekle tiklandi
-2022-11-14 20:25:31 INFO  Log:27 - Alisverise Devam Et dugmesine tiklandi
-2022-11-14 20:25:35 INFO  Log:27 - Fareyi ikinci urunun uzerine getirin ve Sepete ekle yi tiklayin
-2022-11-14 20:25:52 INFO  Log:27 - Sepeti Goruntule dugmesine tiklandi
-2022-11-14 20:26:07 INFO  Log:27 - Her iki urunun de sepete eklendigi dogrulandi
-2022-11-14 20:28:51 INFO  Log:11 - ---------------------------------------------------------------------------------------
-2022-11-14 20:28:51 INFO  Log:12 - ***********************         START    **************************
-2022-11-14 20:28:51 INFO  Log:13 - ---------------------------------------------------------------------------------------
-2022-11-14 20:29:02 INFO  Log:27 - Anasayfaya gidildi
-2022-11-14 20:29:02 INFO  Log:27 - Ana sayfanin basariyla gorunur oldugu dogrulandi
-2022-11-14 20:29:11 INFO  Log:27 - Urunler dugmesine tiklandi
-2022-11-14 20:29:14 INFO  Log:27 - Ilk urunun uzerine gelindi ve sepete ekle tiklandi
-2022-11-14 20:29:31 INFO  Log:27 - Alisverise Devam Et dugmesine tiklandi
-2022-11-14 20:29:34 INFO  Log:27 - Fareyi ikinci urunun uzerine getirin ve Sepete ekle yi tiklayin
-2022-11-14 20:29:51 INFO  Log:27 - Sepeti Goruntule dugmesine tiklandi
-2022-11-14 20:30:06 INFO  Log:27 - Her iki urunun de sepete eklendigi dogrulandi
-2022-11-14 21:00:22 INFO  Log:11 - ---------------------------------------------------------------------------------------
-2022-11-14 21:00:22 INFO  Log:12 - ***********************         START    **************************
-2022-11-14 21:00:22 INFO  Log:13 - ---------------------------------------------------------------------------------------
-2022-11-14 21:00:26 INFO  Log:27 - Anasayfaya gidildi
-2022-11-14 21:00:26 INFO  Log:27 - Ana sayfanin basariyla gorunur oldugu dogrulandi
-2022-11-14 21:00:32 INFO  Log:27 - Urunler dugmesine tiklandi
-2022-11-14 21:00:33 INFO  Log:27 - Ilk urunun uzerine gelindi ve sepete ekle tiklandi
-2022-11-14 21:00:34 INFO  Log:27 - Alisverise Devam Et dugmesine tiklandi
-2022-11-14 21:00:35 INFO  Log:27 - Fareyi ikinci urunun uzerine getirin ve Sepete ekle yi tiklayin
-2022-11-14 21:00:39 INFO  Log:27 - Sepeti Goruntule dugmesine tiklandi
-2022-11-14 21:00:39 INFO  Log:27 - Her iki urunun de sepete eklendigi dogrulandi
-2022-11-14 21:11:11 INFO  Log:11 - ---------------------------------------------------------------------------------------
-2022-11-14 21:11:11 INFO  Log:12 - ***********************         START    **************************
-2022-11-14 21:11:11 INFO  Log:13 - ---------------------------------------------------------------------------------------
-2022-11-14 21:11:19 INFO  Log:27 - Anasayfaya gidildi
-2022-11-14 21:11:19 INFO  Log:27 - Ana sayfanin basariyla gorunur oldugu dogrulandi
-2022-11-14 21:11:26 INFO  Log:27 - Urunler dugmesine tiklandi
-2022-11-14 21:11:30 INFO  Log:27 - Ilk urunun uzerine gelindi ve sepete ekle tiklandi
-2022-11-14 21:11:47 INFO  Log:27 - Alisverise Devam Et dugmesine tiklandi
-2022-11-14 21:11:50 INFO  Log:27 - Fareyi ikinci urunun uzerine getirin ve Sepete ekle yi tiklayin
-2022-11-14 21:12:07 INFO  Log:27 - Sepeti Goruntule dugmesine tiklandi
-2022-11-14 21:12:22 INFO  Log:27 - Her iki urunun de sepete eklendigi dogrulandi
-2022-11-14 21:13:43 INFO  Log:11 - ---------------------------------------------------------------------------------------
-2022-11-14 21:13:43 INFO  Log:12 - ***********************         START    **************************
-2022-11-14 21:13:43 INFO  Log:13 - ---------------------------------------------------------------------------------------
-2022-11-14 21:13:49 INFO  Log:27 - Anasayfaya gidildi
-2022-11-14 21:13:49 INFO  Log:27 - Ana sayfanin basariyla gorunur oldugu dogrulandi
-2022-11-14 21:13:56 INFO  Log:27 - Urunler dugmesine tiklandi
-2022-11-14 21:13:59 INFO  Log:27 - Ilk urunun uzerine gelindi ve sepete ekle tiklandi
-2022-11-14 21:14:16 INFO  Log:27 - Alisverise Devam Et dugmesine tiklandi
-2022-11-14 21:14:19 INFO  Log:27 - Fareyi ikinci urunun uzerine getirin ve Sepete ekle yi tiklayin
-2022-11-14 21:14:36 INFO  Log:27 - Sepeti Goruntule dugmesine tiklandi
-2022-11-14 21:14:36 INFO  Log:27 - Her iki urunun de sepete eklendigi dogrulandi
-2022-11-15 07:03:00 INFO  Log:11 - ---------------------------------------------------------------------------------------
-2022-11-15 07:03:00 INFO  Log:12 - ***********************         START    **************************
-2022-11-15 07:03:00 INFO  Log:13 - ---------------------------------------------------------------------------------------
-2022-11-15 07:21:08 INFO  Log:11 - ---------------------------------------------------------------------------------------
-2022-11-15 07:21:08 INFO  Log:12 - ***********************         START    **************************
-2022-11-15 07:21:08 INFO  Log:13 - ---------------------------------------------------------------------------------------
-2022-11-15 07:22:00 INFO  Log:27 - Anasayfaya gidildi
-2022-11-15 07:22:00 INFO  Log:27 - Ana sayfanin basariyla gorunur oldugu dogrulandi
-2022-11-15 07:22:38 INFO  Log:27 - Urunler dugmesine tiklandi
-2022-11-15 07:22:40 INFO  Log:27 - Ilk urunun uzerine gelindi ve sepete ekle tiklandi
-2022-11-15 07:22:42 INFO  Log:27 - Alisverise Devam Et dugmesine tiklandi
-2022-11-15 07:22:44 INFO  Log:27 - Fareyi ikinci urunun uzerine getirin ve Sepete ekle yi tiklayin
-2022-11-15 07:22:46 INFO  Log:27 - Sepeti Goruntule dugmesine tiklandi
-2022-11-15 07:30:50 INFO  Log:11 - ---------------------------------------------------------------------------------------
-2022-11-15 07:30:50 INFO  Log:12 - ***********************         START    **************************
-2022-11-15 07:30:50 INFO  Log:13 - ---------------------------------------------------------------------------------------
-2022-11-15 07:34:38 INFO  Log:11 - ---------------------------------------------------------------------------------------
-2022-11-15 07:34:38 INFO  Log:12 - ***********************         START    **************************
-2022-11-15 07:34:38 INFO  Log:13 - ---------------------------------------------------------------------------------------
-2022-11-15 07:35:17 INFO  Log:27 - Anasayfaya gidildi
-2022-11-15 07:35:18 INFO  Log:27 - Ana sayfanin basariyla gorunur oldugu dogrulandi
-2022-11-15 07:35:36 INFO  Log:27 - Urunler dugmesine tiklandi
-2022-11-15 07:35:39 INFO  Log:27 - Ilk urunun uzerine gelindi ve sepete ekle tiklandi
-2022-11-15 07:35:56 INFO  Log:27 - Alisverise Devam Et dugmesine tiklandi
-2022-11-15 07:35:59 INFO  Log:27 - Fareyi ikinci urunun uzerine getirin ve Sepete ekle yi tiklayin
-2022-11-15 07:36:16 INFO  Log:27 - Sepeti Goruntule dugmesine tiklandi
-2022-11-15 08:12:58 INFO  Log:27 - Dosya yuklendi
-2022-11-15 10:31:23 INFO  Log:27 - Adi ve e-posta adresi girildi
-2022-11-15 10:37:07 INFO  Log:27 - Adi ve e-posta adresi girildi
-2022-11-15 10:40:51 INFO  Log:27 - Adi ve e-posta adresi girildi
-2022-11-16 20:27:16 INFO  Log:27 - Adi ve e-posta adresi girildi
-2022-11-16 20:27:21 INFO  Log:27 - doldurma ayrintilari girildi
-2022-11-16 21:05:53 INFO  Log:11 - ---------------------------------------------------------------------------------------
-2022-11-16 21:05:53 INFO  Log:12 - ***********************         START    **************************
-2022-11-16 21:05:53 INFO  Log:13 - ---------------------------------------------------------------------------------------
-2022-11-16 21:06:03 INFO  Log:27 - Anasayfaya gidildi
-2022-11-16 21:07:52 INFO  Log:11 - ---------------------------------------------------------------------------------------
-2022-11-16 21:07:52 INFO  Log:12 - ***********************         START    **************************
-2022-11-16 21:07:52 INFO  Log:13 - ---------------------------------------------------------------------------------------
-2022-11-16 21:08:00 INFO  Log:27 - Anasayfaya gidildi
-2022-11-16 21:08:00 INFO  Log:27 - Ana sayfanin basariyla gorunur oldugu dogrulandi
-2022-11-16 21:08:03 INFO  Log:27 - Kayıt Ol/Giris Yap dugmesine tıklandı
-2022-11-16 21:08:03 INFO  Log:27 - Yeni kullanici Kaydi ni dogrulayin! goruldu
-2022-11-16 21:08:05 INFO  Log:27 - Adi ve e-posta adresi girildi
-2022-11-16 21:08:08 INFO  Log:27 - Kaydol dugmesine tiklandi
-2022-11-16 21:08:08 INFO  Log:27 - HESAP BILGILERINI GIRIN ifadesinin gorunur oldugu dogrulandi
-2022-11-16 21:08:12 INFO  Log:27 - doldurma ayrintilari girildi
-2022-11-16 21:14:01 INFO  Log:11 - ---------------------------------------------------------------------------------------
-2022-11-16 21:14:01 INFO  Log:12 - ***********************         START    **************************
-2022-11-16 21:14:01 INFO  Log:13 - ---------------------------------------------------------------------------------------
-2022-11-16 21:14:06 INFO  Log:27 - Anasayfaya gidildi
-2022-11-16 21:14:06 INFO  Log:27 - Ana sayfanin basariyla gorunur oldugu dogrulandi
-2022-11-16 21:14:10 INFO  Log:27 - Kayıt Ol/Giris Yap dugmesine tıklandı
-2022-11-16 21:14:10 INFO  Log:27 - Yeni kullanici Kaydi ni dogrulayin! goruldu
-2022-11-16 21:14:12 INFO  Log:27 - Adi ve e-posta adresi girildi
-2022-11-16 21:14:16 INFO  Log:27 - Kaydol dugmesine tiklandi
-2022-11-16 21:14:16 INFO  Log:27 - HESAP BILGILERINI GIRIN ifadesinin gorunur oldugu dogrulandi
-2022-11-16 21:14:19 INFO  Log:27 - doldurma ayrintilari girildi
-2022-11-16 21:14:20 INFO  Log:27 - Bultenimize kaydolun onay kutusu secildi
-2022-11-16 21:14:21 INFO  Log:27 - Ortaklarimizdan ozel teklifler alin onay kutusu secildi
-2022-11-16 21:14:33 INFO  Log:27 - doldurma ayrintilari girildi
-2022-11-16 23:10:47 INFO  Log:11 - ---------------------------------------------------------------------------------------
-2022-11-16 23:10:47 INFO  Log:12 - ***********************         START    **************************
-2022-11-16 23:10:47 INFO  Log:13 - ---------------------------------------------------------------------------------------
-2022-11-16 23:10:51 INFO  Log:27 - Anasayfaya gidildi
-2022-11-16 23:10:51 INFO  Log:27 - Ana sayfanin basariyla gorunur oldugu dogrulandi
-2022-11-16 23:10:53 INFO  Log:27 - Kayıt Ol/Giris Yap dugmesine tıklandı
-2022-11-16 23:10:53 INFO  Log:27 - Yeni kullanici Kaydi ni dogrulayin! goruldu
-2022-11-16 23:10:56 INFO  Log:27 - Adi ve e-posta adresi girildi
-2022-11-16 23:10:58 INFO  Log:27 - Kaydol dugmesine tiklandi
-2022-11-16 23:10:58 INFO  Log:27 - HESAP BILGILERINI GIRIN ifadesinin gorunur oldugu dogrulandi
-2022-11-16 23:11:01 INFO  Log:27 - doldurma ayrintilari girildi
-2022-11-16 23:11:02 INFO  Log:27 - Bultenimize kaydolun onay kutusu secildi
-2022-11-16 23:11:03 INFO  Log:27 - Ortaklarimizdan ozel teklifler alin onay kutusu secildi
-2022-11-16 23:11:15 INFO  Log:27 - doldurma ayrintilari girildi
-2022-11-16 23:11:18 INFO  Log:27 - Hesap olustur dugmesine tiklandi
-2022-11-16 23:11:18 INFO  Log:27 - HESAP OLUSTURULDU gorundu
-2022-11-16 23:11:26 INFO  Log:27 - Devam dugmesine tiklandi
-2022-11-16 23:11:27 INFO  Log:27 - Kullanici adi olarak oturum acildi ifadesinin gorunur oldugu dogrulandi
-2022-11-16 23:11:29 INFO  Log:27 - Hesabi Sil dugmesi tiklandi
-2022-11-16 23:11:31 INFO  Log:27 - Hesabi Silindi gorunur
-2022-11-16 23:11:48 INFO  Log:27 - Devam dugmesine tiklandi
-2022-11-16 23:11:48 INFO  Log:27 - Sayfa kapatilir
-2022-11-16 23:11:48 INFO  Log:19 - ---------------------------------------------------------------------------------------
-2022-11-16 23:11:48 INFO  Log:20 - **************************         END    **************************
-2022-11-16 23:11:48 INFO  Log:21 - ---------------------------------------------------------------------------------------
-2022-11-16 23:16:27 INFO  Log:11 - ---------------------------------------------------------------------------------------
-2022-11-16 23:16:27 INFO  Log:12 - ***********************         START    **************************
-2022-11-16 23:16:27 INFO  Log:13 - ---------------------------------------------------------------------------------------
-2022-11-16 23:16:38 INFO  Log:27 - Anasayfaya gidildi
-2022-11-16 23:16:38 INFO  Log:27 - Ana sayfanin basariyla gorunur oldugu dogrulandi
-2022-11-16 23:16:41 INFO  Log:27 - Kayıt Ol/Giris Yap dugmesine tıklandı
-2022-11-16 23:16:41 INFO  Log:27 - Hesabiniza giris yapin ifadesinin gorunur oldugu dogrulandi
-2022-11-16 23:16:44 INFO  Log:27 - Dogru e-posta adresini ve sifre girildi
-2022-11-16 23:16:49 INFO  Log:27 - Giris dugmesi tiklandi
-2022-11-16 23:16:50 INFO  Log:27 - Kullanici adi olarak oturum acildi ifadesinin gorunur oldugu dogrulandi
-2022-11-16 23:16:52 INFO  Log:27 - Hesabi Sil dugmesi tiklandi
-2022-11-16 23:16:54 INFO  Log:27 - Hesabi Silindi gorundu
-2022-11-16 23:16:54 INFO  Log:27 - Sayfa kapatilir
-2022-11-16 23:16:54 INFO  Log:19 - ---------------------------------------------------------------------------------------
-2022-11-16 23:16:54 INFO  Log:20 - **************************         END    **************************
-2022-11-16 23:16:54 INFO  Log:21 - ---------------------------------------------------------------------------------------
-2022-11-16 23:17:24 INFO  Log:11 - ---------------------------------------------------------------------------------------
-2022-11-16 23:17:24 INFO  Log:12 - ***********************         START    **************************
-2022-11-16 23:17:24 INFO  Log:13 - ---------------------------------------------------------------------------------------
-2022-11-16 23:17:29 INFO  Log:27 - Anasayfaya gidildi
-2022-11-16 23:17:29 INFO  Log:27 - Ana sayfanin basariyla gorunur oldugu dogrulandi
-2022-11-16 23:17:31 INFO  Log:27 - Kayıt Ol/Giris Yap dugmesine tıklandı
-2022-11-16 23:17:31 INFO  Log:27 - Hesabiniza giris yapin ifadesinin gorunur oldugu dogrulandi
-2022-11-16 23:17:34 INFO  Log:27 - Yanlis e-posta adresi ve sifre girildi
-2022-11-16 23:17:36 INFO  Log:27 - Giris dugmesi tiklandi
-2022-11-16 23:17:38 INFO  Log:27 - E-postaniz veya sifreniz yanlis hatasi dogrulandi ve goruldu
-2022-11-16 23:17:38 INFO  Log:27 - Sayfa kapatilir
-2022-11-16 23:17:38 INFO  Log:19 - ---------------------------------------------------------------------------------------
-2022-11-16 23:17:38 INFO  Log:20 - **************************         END    **************************
-2022-11-16 23:17:38 INFO  Log:21 - ---------------------------------------------------------------------------------------
-2022-11-16 23:17:57 INFO  Log:11 - ---------------------------------------------------------------------------------------
-2022-11-16 23:17:57 INFO  Log:12 - ***********************         START    **************************
-2022-11-16 23:17:57 INFO  Log:13 - ---------------------------------------------------------------------------------------
-2022-11-16 23:18:01 INFO  Log:27 - Anasayfaya gidildi
-2022-11-16 23:18:01 INFO  Log:27 - Ana sayfanin basariyla gorunur oldugu dogrulandi
-2022-11-16 23:18:03 INFO  Log:27 - Kayıt Ol/Giris Yap dugmesine tıklandı
-2022-11-16 23:18:03 INFO  Log:27 - Hesabiniza giris yapin ifadesinin gorunur oldugu dogrulandi
-2022-11-16 23:18:05 INFO  Log:27 - Dogru e-posta adresini ve sifre girildi
-2022-11-16 23:18:08 INFO  Log:27 - Giris dugmesi tiklandi
-2022-11-16 23:20:31 INFO  Log:11 - ---------------------------------------------------------------------------------------
-2022-11-16 23:20:31 INFO  Log:12 - ***********************         START    **************************
-2022-11-16 23:20:31 INFO  Log:13 - ---------------------------------------------------------------------------------------
-2022-11-16 23:20:35 INFO  Log:27 - Anasayfaya gidildi
-2022-11-16 23:20:48 INFO  Log:11 - ---------------------------------------------------------------------------------------
-2022-11-16 23:20:48 INFO  Log:12 - ***********************         START    **************************
-2022-11-16 23:20:48 INFO  Log:13 - ---------------------------------------------------------------------------------------
-2022-11-16 23:20:52 INFO  Log:27 - Anasayfaya gidildi
-2022-11-16 23:20:52 INFO  Log:27 - Ana sayfanin basariyla gorunur oldugu dogrulandi
-2022-11-16 23:20:55 INFO  Log:27 - Kayıt Ol/Giris Yap dugmesine tıklandı
-2022-11-16 23:20:55 INFO  Log:27 - Hesabiniza giris yapin ifadesinin gorunur oldugu dogrulandi
-2022-11-16 23:20:57 INFO  Log:27 - Dogru e-posta adresini ve sifre girildi
-2022-11-16 23:20:59 INFO  Log:27 - Giris dugmesi tiklandi
-2022-11-16 23:26:30 INFO  Log:11 - ---------------------------------------------------------------------------------------
-2022-11-16 23:26:30 INFO  Log:12 - ***********************         START    **************************
-2022-11-16 23:26:30 INFO  Log:13 - ---------------------------------------------------------------------------------------
-2022-11-16 23:26:35 INFO  Log:27 - Anasayfaya gidildi
-2022-11-16 23:26:35 INFO  Log:27 - Ana sayfanin basariyla gorunur oldugu dogrulandi
-2022-11-16 23:26:38 INFO  Log:27 - Kayıt Ol/Giris Yap dugmesine tıklandı
-2022-11-16 23:26:38 INFO  Log:27 - Hesabiniza giris yapin ifadesinin gorunur oldugu dogrulandi
-2022-11-16 23:26:41 INFO  Log:27 - Dogru e-posta adresini ve sifre girildi
-2022-11-16 23:26:45 INFO  Log:27 - Giris dugmesi tiklandi
-2022-11-16 23:26:46 INFO  Log:27 - Kullanici adi olarak oturum acildi ifadesinin gorunur oldugu dogrulandi
-2022-11-16 23:26:48 INFO  Log:27 - Cıkıs dugmesi tiklandi
-2022-11-16 23:26:48 INFO  Log:27 - Kullanicinin oturum acma sayfasina yonlendirildigi dogrulandi
-2022-11-16 23:26:48 INFO  Log:27 - Sayfa kapatilir
-2022-11-16 23:26:48 INFO  Log:19 - ---------------------------------------------------------------------------------------
-2022-11-16 23:26:48 INFO  Log:20 - **************************         END    **************************
-2022-11-16 23:26:48 INFO  Log:21 - ---------------------------------------------------------------------------------------
-2022-11-16 23:28:24 INFO  Log:11 - ---------------------------------------------------------------------------------------
-2022-11-16 23:28:24 INFO  Log:12 - ***********************         START    **************************
-2022-11-16 23:28:24 INFO  Log:13 - ---------------------------------------------------------------------------------------
-2022-11-16 23:28:29 INFO  Log:27 - Anasayfaya gidildi
-2022-11-16 23:28:29 INFO  Log:27 - Ana sayfanin basariyla gorunur oldugu dogrulandi
-2022-11-16 23:28:47 INFO  Log:27 - Kayıt Ol/Giris Yap dugmesine tıklandı
-2022-11-16 23:28:47 INFO  Log:27 - Hesabiniza giris yapin ifadesinin gorunur oldugu dogrulandi
-2022-11-16 23:28:49 INFO  Log:27 - Dogru e-posta adresini ve sifre girildi
-2022-11-16 23:28:57 INFO  Log:27 - Giris dugmesi tiklandi
-2022-11-16 23:28:58 INFO  Log:27 - Kullanici adi olarak oturum acildi ifadesinin gorunur oldugu dogrulandi
-2022-11-16 23:29:03 INFO  Log:27 - Cıkıs dugmesi tiklandi
-2022-11-16 23:29:03 INFO  Log:27 - Kullanicinin oturum acma sayfasina yonlendirildigi dogrulandi
-2022-11-16 23:29:03 INFO  Log:27 - Sayfa kapatilir
-2022-11-16 23:29:03 INFO  Log:19 - ---------------------------------------------------------------------------------------
-2022-11-16 23:29:03 INFO  Log:20 - **************************         END    **************************
-2022-11-16 23:29:03 INFO  Log:21 - ---------------------------------------------------------------------------------------
+2022-11-17 06:57:54 INFO  Log:11 - ---------------------------------------------------------------------------------------
+2022-11-17 06:57:54 INFO  Log:12 - ***********************         START    **************************
+2022-11-17 06:57:54 INFO  Log:13 - ---------------------------------------------------------------------------------------
+2022-11-17 06:58:53 INFO  Log:27 - Anasayfaya gidildi
+2022-11-17 06:58:53 INFO  Log:27 - Ana sayfanin basariyla gorunur oldugu dogrulandi
+2022-11-17 06:58:59 INFO  Log:27 - Kayıt Ol/Giris Yap dugmesine tıklandı
+2022-11-17 06:58:59 INFO  Log:27 - Yeni kullanici Kaydi ni dogrulayin! goruldu
+2022-11-17 06:59:01 INFO  Log:27 - Adi ve e-posta adresi girildi
+2022-11-17 06:59:04 INFO  Log:27 - Kaydol dugmesine tiklandi
+2022-11-17 06:59:04 INFO  Log:27 - HESAP BILGILERINI GIRIN ifadesinin gorunur oldugu dogrulandi
+2022-11-17 06:59:07 INFO  Log:27 - doldurma ayrintilari girildi
+2022-11-17 06:59:08 INFO  Log:27 - Bultenimize kaydolun onay kutusu secildi
+2022-11-17 06:59:10 INFO  Log:27 - Ortaklarimizdan ozel teklifler alin onay kutusu secildi
+2022-11-17 06:59:22 INFO  Log:27 - doldurma ayrintilari girildi
+2022-11-17 06:59:42 INFO  Log:27 - Hesap olustur dugmesine tiklandi
+2022-11-17 06:59:42 INFO  Log:27 - HESAP OLUSTURULDU gorundu
+2022-11-17 06:59:56 INFO  Log:27 - Devam dugmesine tiklandi
+2022-11-17 06:59:57 INFO  Log:27 - Kullanici adi olarak oturum acildi ifadesinin gorunur oldugu dogrulandi
+2022-11-17 07:00:32 INFO  Log:27 - Hesabi Sil dugmesi tiklandi
+2022-11-17 07:00:34 INFO  Log:27 - Hesabi Silindi gorunur
+2022-11-17 07:00:51 INFO  Log:27 - Devam dugmesine tiklandi
+2022-11-17 07:00:51 INFO  Log:27 - Sayfa kapatilir
+2022-11-17 07:00:51 INFO  Log:19 - ---------------------------------------------------------------------------------------
+2022-11-17 07:00:51 INFO  Log:20 - **************************         END    **************************
+2022-11-17 07:00:51 INFO  Log:21 - ---------------------------------------------------------------------------------------
+2022-11-17 07:00:53 INFO  Log:11 - ---------------------------------------------------------------------------------------
+2022-11-17 07:00:53 INFO  Log:12 - ***********************         START    **************************
+2022-11-17 07:00:53 INFO  Log:13 - ---------------------------------------------------------------------------------------
+2022-11-17 07:01:11 INFO  Log:27 - Anasayfaya gidildi
+2022-11-17 07:01:11 INFO  Log:27 - Ana sayfanin basariyla gorunur oldugu dogrulandi
+2022-11-17 07:01:14 INFO  Log:27 - Kayıt Ol/Giris Yap dugmesine tıklandı
+2022-11-17 07:01:14 INFO  Log:27 - Hesabiniza giris yapin ifadesinin gorunur oldugu dogrulandi
+2022-11-17 07:01:16 INFO  Log:27 - Dogru e-posta adresini ve sifre girildi
+2022-11-17 07:01:22 INFO  Log:27 - Giris dugmesi tiklandi
+2022-11-17 07:01:23 INFO  Log:27 - Kullanici adi olarak oturum acildi ifadesinin gorunur oldugu dogrulandi
+2022-11-17 07:01:26 INFO  Log:27 - Hesabi Sil dugmesi tiklandi
+2022-11-17 07:01:28 INFO  Log:27 - Hesabi Silindi gorundu
+2022-11-17 07:01:28 INFO  Log:27 - Sayfa kapatilir
+2022-11-17 07:01:28 INFO  Log:19 - ---------------------------------------------------------------------------------------
+2022-11-17 07:01:28 INFO  Log:20 - **************************         END    **************************
+2022-11-17 07:01:28 INFO  Log:21 - ---------------------------------------------------------------------------------------
+2022-11-17 07:01:30 INFO  Log:11 - ---------------------------------------------------------------------------------------
+2022-11-17 07:01:30 INFO  Log:12 - ***********************         START    **************************
+2022-11-17 07:01:30 INFO  Log:13 - ---------------------------------------------------------------------------------------
+2022-11-17 07:01:38 INFO  Log:27 - Anasayfaya gidildi
+2022-11-17 07:01:38 INFO  Log:27 - Ana sayfanin basariyla gorunur oldugu dogrulandi
+2022-11-17 07:01:43 INFO  Log:27 - Kayıt Ol/Giris Yap dugmesine tıklandı
+2022-11-17 07:01:43 INFO  Log:27 - Hesabiniza giris yapin ifadesinin gorunur oldugu dogrulandi
+2022-11-17 07:01:45 INFO  Log:27 - Yanlis e-posta adresi ve sifre girildi
+2022-11-17 07:01:47 INFO  Log:27 - Giris dugmesi tiklandi
+2022-11-17 07:01:49 INFO  Log:27 - E-postaniz veya sifreniz yanlis hatasi dogrulandi ve goruldu
+2022-11-17 07:01:49 INFO  Log:27 - Sayfa kapatilir
+2022-11-17 07:01:49 INFO  Log:19 - ---------------------------------------------------------------------------------------
+2022-11-17 07:01:49 INFO  Log:20 - **************************         END    **************************
+2022-11-17 07:01:49 INFO  Log:21 - ---------------------------------------------------------------------------------------
+2022-11-17 07:01:51 INFO  Log:11 - ---------------------------------------------------------------------------------------
+2022-11-17 07:01:51 INFO  Log:12 - ***********************         START    **************************
+2022-11-17 07:01:51 INFO  Log:13 - ---------------------------------------------------------------------------------------
+2022-11-17 07:02:15 INFO  Log:27 - Anasayfaya gidildi
+2022-11-17 07:02:15 INFO  Log:27 - Ana sayfanin basariyla gorunur oldugu dogrulandi
+2022-11-17 07:05:17 INFO  Log:27 - Kayıt Ol/Giris Yap dugmesine tıklandı
+2022-11-17 07:06:00 INFO  Log:11 - ---------------------------------------------------------------------------------------
+2022-11-17 07:06:00 INFO  Log:12 - ***********************         START    **************************
+2022-11-17 07:06:00 INFO  Log:13 - ---------------------------------------------------------------------------------------
+2022-11-17 07:06:19 INFO  Log:27 - Anasayfaya gidildi
+2022-11-17 07:06:19 INFO  Log:27 - Ana sayfanin basariyla gorunur oldugu dogrulandi
+2022-11-17 07:06:21 INFO  Log:27 - Kayıt Ol/Giris Yap dugmesine tıklandı
+2022-11-17 07:06:21 INFO  Log:27 - Hesabiniza giris yapin ifadesinin gorunur oldugu dogrulandi
+2022-11-17 07:06:24 INFO  Log:27 - Dogru e-posta adresini ve sifre girildi
+2022-11-17 07:06:28 INFO  Log:27 - Giris dugmesi tiklandi
+2022-11-17 22:26:14 INFO  Log:11 - ---------------------------------------------------------------------------------------
+2022-11-17 22:26:14 INFO  Log:12 - ***********************         START    **************************
+2022-11-17 22:26:14 INFO  Log:13 - ---------------------------------------------------------------------------------------
+2022-11-17 22:26:29 INFO  Log:27 - Anasayfaya gidildi
+2022-11-17 22:26:29 INFO  Log:27 - Ana sayfanin basariyla gorunur oldugu dogrulandi
+2022-11-17 22:26:31 INFO  Log:27 - Kayıt Ol/Giris Yap dugmesine tıklandı
+2022-11-17 22:26:31 INFO  Log:27 - Yeni kullanici Kaydi ni dogrulayin! goruldu
+2022-11-17 22:26:33 INFO  Log:27 - Adi ve kayitli e-posta adresi girildi
+2022-11-17 22:26:36 INFO  Log:27 - Kaydol dugmesine tiklandi
+2022-11-17 22:26:38 INFO  Log:27 - E-posta adresi zaten var! hatasi dofrulandi ve goruldu
+2022-11-17 22:26:38 INFO  Log:27 - Sayfa kapatilir
+2022-11-17 22:26:38 INFO  Log:19 - ---------------------------------------------------------------------------------------
+2022-11-17 22:26:38 INFO  Log:20 - **************************         END    **************************
+2022-11-17 22:26:38 INFO  Log:21 - ---------------------------------------------------------------------------------------
+2022-11-17 22:28:37 INFO  Log:11 - ---------------------------------------------------------------------------------------
+2022-11-17 22:28:37 INFO  Log:12 - ***********************         START    **************************
+2022-11-17 22:28:37 INFO  Log:13 - ---------------------------------------------------------------------------------------
+2022-11-17 22:29:11 INFO  Log:27 - Anasayfaya gidildi
+2022-11-17 22:29:11 INFO  Log:27 - Ana sayfanin basariyla gorunur oldugu dogrulandi
+2022-11-17 22:29:14 INFO  Log:27 - Bize Ulasin dugmesine tiklandi
+2022-11-17 22:29:15 INFO  Log:27 - GET IN TOUCH un gorunur oldugu dogrulandi
+2022-11-17 22:29:18 INFO  Log:27 - Adi e-posta adresi konu ve mesaj girildi
+2022-11-17 22:29:25 INFO  Log:27 - Dosya yuklendi
+2022-11-17 22:29:27 INFO  Log:27 - Gonder dugmesine tiklandi
+2022-11-17 22:29:30 INFO  Log:27 - Tamam dugmesine tiklandi
+2022-11-17 22:29:30 INFO  Log:27 - Success! Bilgileriniz basariyla gonderildi gorunur
+2022-11-17 22:30:06 INFO  Log:27 - Anasayfa dugmesine tiklandi ve basariyla indigi goruldu
+2022-11-17 22:30:22 INFO  Log:27 - Sayfa kapatilir
+2022-11-17 22:30:22 INFO  Log:19 - ---------------------------------------------------------------------------------------
+2022-11-17 22:30:22 INFO  Log:20 - **************************         END    **************************
+2022-11-17 22:30:22 INFO  Log:21 - ---------------------------------------------------------------------------------------
+2022-11-17 22:33:58 INFO  Log:11 - ---------------------------------------------------------------------------------------
+2022-11-17 22:33:58 INFO  Log:12 - ***********************         START    **************************
+2022-11-17 22:33:58 INFO  Log:13 - ---------------------------------------------------------------------------------------
+2022-11-17 22:34:06 INFO  Log:27 - Anasayfaya gidildi
+2022-11-17 22:34:06 INFO  Log:27 - Ana sayfanin basariyla gorunur oldugu dogrulandi
+2022-11-17 22:34:10 INFO  Log:27 - Test Vakalari dugmesine tiklandi
+2022-11-17 22:34:10 INFO  Log:27 - kullanicinin testsenaryolari sayfasina basariyla yonlendirildigi dogrulandi
+2022-11-17 22:34:10 INFO  Log:27 - Sayfa kapatilir
+2022-11-17 22:34:10 INFO  Log:19 - ---------------------------------------------------------------------------------------
+2022-11-17 22:34:10 INFO  Log:20 - **************************         END    **************************
+2022-11-17 22:34:10 INFO  Log:21 - ---------------------------------------------------------------------------------------
+2022-11-17 22:34:27 INFO  Log:11 - ---------------------------------------------------------------------------------------
+2022-11-17 22:34:27 INFO  Log:12 - ***********************         START    **************************
+2022-11-17 22:34:27 INFO  Log:13 - ---------------------------------------------------------------------------------------
+2022-11-17 22:34:31 INFO  Log:27 - Anasayfaya gidildi
+2022-11-17 22:34:31 INFO  Log:27 - Ana sayfanin basariyla gorunur oldugu dogrulandi
+2022-11-17 22:34:34 INFO  Log:27 - Test Vakalari dugmesine tiklandi
+2022-11-17 22:34:34 INFO  Log:27 - kullanicinin testsenaryolari sayfasina basariyla yonlendirildigi dogrulandi
+2022-11-17 22:34:34 INFO  Log:27 - Sayfa kapatilir
+2022-11-17 22:34:34 INFO  Log:19 - ---------------------------------------------------------------------------------------
+2022-11-17 22:34:34 INFO  Log:20 - **************************         END    **************************
+2022-11-17 22:34:34 INFO  Log:21 - ---------------------------------------------------------------------------------------

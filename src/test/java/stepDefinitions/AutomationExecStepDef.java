@@ -27,10 +27,7 @@ public class AutomationExecStepDef {
     String brandproductYazi;
 
 
-    @And("kullanici Login to your account yazisinin goruntugunu teyit eder")
-    public void kullaniciLoginToYourAccountYazisininGoruntugunuTeyitEder() {
-        Assert.assertTrue(ap.loginYourAccountYazisi.isDisplayed());
-    }
+
 
     @Then("email kutusuna email girer")
     public void emailKutusunaEmailGirer() {
@@ -48,89 +45,6 @@ public class AutomationExecStepDef {
         ap.loginSayfasiLoginButonu.click();
     }
 
-    @Then("kullanici yanlis email adres ve sifre girer")
-    public void kullaniciYanlisEmailAdresVeSifreGirer() {
-        ap.loginSayfasıEmailAdressInput.sendKeys("puturgeli@gmail.com");
-        ap.loginSayfasiPasswordInput.sendKeys("aadd!A!");
-    }
-
-    @When("Your email or password is incorrect! yazisini gordugunu teyit eder")
-    public void yourEmailOrPasswordIsIncorrectYazisiniGordugunuTeyitEder() {
-        Assert.assertTrue(ap.incorrectemailOrPasswordYazisi.isDisplayed());
-    }
-
-    @When("kullanici logout butonuna basa")
-    public void kullaniciLogoutButonunaBasa() {
-        ap.headerLogOutButonu.click();
-    }
-
-    @And("kullanici loginPage sayfasina donuldugunu teyit eder")
-    public void kullaniciLoginPageSayfasinaDonuldugunuTeyitEder() {
-        Assert.assertTrue(ap.loginYourAccountYazisi.isDisplayed());
-
-    }
-
-    @Then("yeni kullanici name ve email kutusuna varolan bir mail yazar")
-    public void yeniKullaniciNameVeEmailKutusunaVarolanBirMailYazar() {
-        ap.nameInputBox.sendKeys("suat");
-        ap.newUserEmailInputBox.sendKeys("puturgeli1isi@gmail.com");
-    }
-
-    @When("Email Address already exist! yazisini gördügüne emin olur")
-    public void emailAddressAlreadyExistYazisiniGördügüneEminOlur() {
-        Assert.assertTrue(ap.emailAlreadyExistYazisi.isDisplayed());
-
-    }
-
-    @And("kullanici header kisminda contactUs butonuna tiklar")
-    public void kullaniciHeaderKismindaContactUsButonunaTiklar() {
-
-        ap.headerContactUsButon.click();
-    }
-
-    @When("kullanici contactus sayfasinda GET IN TOUCH yazisinin gorunur olduguna emin olur")
-    public void kullaniciContactusSayfasindaGETINTOUCHYazisininGorunurOldugunaEminOlur() {
-        Assert.assertTrue(ap.contactUsPageGetInTouchYazisi.isDisplayed());
-    }
-
-    @Then("kullanici contactus sayfasindaki name email subject ve message kisimlarini doldurur")
-    public void kullaniciContactusSayfasindakiNameEmailSubjectVeMessageKisimlariniDoldurur() {
-        Actions actions = new Actions(Driver.getDriver());
-        actions.click(ap.contactUsPageNameInputBox).sendKeys(Faker.instance().name().fullName()).
-                sendKeys(Keys.TAB).sendKeys(Faker.instance().internet().emailAddress()).
-                sendKeys(Keys.TAB).sendKeys(Faker.instance().name().name()).
-                sendKeys(Keys.TAB).sendKeys(Faker.instance().address().fullAddress()).perform();
-    }
-
-    @And("kullanici submit butonuna basar")
-    public void kullaniciSubmitButonunaBasar() {
-        ap.contactusPageSubmitButonu.click();
-    }
-
-    @When("kullanici acilan popup pencereden ok tiklar")
-    public void kullaniciAcilanPopupPenceredenOkTiklar() {
-
-        Driver.getDriver().switchTo().alert().accept();
-
-    }
-
-    @Then("Success! Your details have been submitted successfully.' yazisini gordugunu teyit eder")
-    public void successYourDetailsHaveBeenSubmittedSuccessfullyYazisiniGordugunuTeyitEder() {
-
-        Driver.wait(2);
-        Assert.assertTrue(ap.contactusSuccessSubmitYazisi.isDisplayed());
-    }
-
-    @And("kullanici header da testCases butonuna tiklar")
-    public void kullaniciHeaderDaTestCasesButonunaTiklar() {
-        ap.headerTestCasesButonu.click();
-
-    }
-
-    @When("kullanici testCase sayfasinda oldugunu dogrular")
-    public void kullaniciTestCaseSayfasindaOldugunuDogrular() {
-        Assert.assertTrue(ap.testCasesPageTestCaseYazisi.isDisplayed());
-    }
 
     @And("kullanici Products butonuna tiklar")
     public void kullaniciProductsButonunaTiklar() {
