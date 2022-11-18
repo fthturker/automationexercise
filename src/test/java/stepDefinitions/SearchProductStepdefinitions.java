@@ -2,6 +2,7 @@ package stepDefinitions;
 
 import io.cucumber.java.en.*;
 import org.junit.Assert;
+import org.openqa.selenium.WebElement;
 import pages.Case09Page;
 import utilities.Driver;
 import utilities.Log;
@@ -27,7 +28,16 @@ public class SearchProductStepdefinitions {
 
     @When("Verify all the products related to search are visible")
     public void verify_all_the_products_related_to_search_are_visible() {
-        Assert.assertTrue(case09Page.allProductSearch.isDisplayed());
+
+        int expectedCount = 0;
+        for (WebElement w : case09Page.productPageAllProductDetailList) {
+            if (w.getText().contains("Tshirt") || w.getText().contains("T-Shirt") || w.getText().contains("T SHIRT")) {
+                expectedCount++;
+            }
+        }
+        int actualCount = case09Page.productPageSearchResultList.size();
+        System.out.println("expected: " + expectedCount + " actual: " + actualCount);
+        Assert.assertEquals(expectedCount, actualCount);
         Driver.wait(1);
         Log.info("Aramayla ilgili tum urunlerin gorunur oldugu dogrulandi");
     }

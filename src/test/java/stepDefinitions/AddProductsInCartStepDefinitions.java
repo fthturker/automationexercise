@@ -3,18 +3,21 @@ package stepDefinitions;
 
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.When;
+import org.junit.Assert;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import pages.Case12Page;
 import utilities.Driver;
 import utilities.Log;
-
-import java.util.List;
-
+import utilities.ReUsableMethods;
 
 
 public class AddProductsInCartStepDefinitions {
     Case12Page case12Page = new Case12Page();
+    static String ilkUrun;
+    static String ikinciUrun;
 
     @When("Click Products button")
     public void click_products_button() {
@@ -25,7 +28,13 @@ public class AddProductsInCartStepDefinitions {
 
     @And("Hover over first product and click Add to cart")
     public void hoverOverFirstProductAndClickAddToCart() {
-        Driver.waitAndClick(case12Page.firstAddToCartButton, 1);
+        Actions actions=new Actions(Driver.getDriver());
+        actions.sendKeys(Keys.PAGE_DOWN).perform();
+        Driver.wait(1);
+
+        actions.moveToElement(case12Page.productPageilkUrunElement).click().perform();
+
+        ilkUrun = case12Page.productpageIlkUrunTitle.getText();
         Driver.wait(1);
         Log.info("Ilk urunun uzerine gelindi ve sepete ekle tiklandi");
     }
@@ -39,7 +48,12 @@ public class AddProductsInCartStepDefinitions {
 
     @When("Hover over second product and click Add to cart")
     public void hover_over_second_product_and_click_add_to_cart() {
-        Driver.waitAndClick(case12Page.secondAddTocartButton, 1);
+        ikinciUrun = case12Page.ikinciUrunTitle.getText();
+        case12Page.headerCartButonu.sendKeys(Keys.PAGE_DOWN);
+
+        ReUsableMethods.hover(case12Page.secondAddTocartButton);
+        ReUsableMethods.waitFor(2);
+        case12Page.secondAddTocartButton.click();
         Driver.wait(1);
         Log.info("Fareyi ikinci urunun uzerine getirin ve Sepete ekle yi tiklayin");
     }
@@ -53,21 +67,24 @@ public class AddProductsInCartStepDefinitions {
 
     @When("Verify both products are added to Cart")
     public void verify_both_products_are_added_to_cart() {
-
+        //Assert.assertTrue(case12Page.productpageIlkUrunTitle.getText().equals(case12Page.cardpageIlkUrunTitle));
+        //Assert.assertTrue(case12Page.ikinciUrunTitle.getText().equals(case12Page.cardPageikinciUrunTitle));
 
     }
-
-
-
-
-
 
 
     @When("Verify their prices, quantity and total price")
     public void verify_their_prices_quantity_and_total_price() {
-        // Write code here that turns the phrase above into concrete actions
-        throw new io.cucumber.java.PendingException();
-    }
+        int miktar = 0;
+        Actions actions = new Actions(Driver.getDriver());
+        actions.click(case12Page.detailPageQuantityElement).doubleClick().sendKeys(miktar + "").perform();
 
+        ReUsableMethods.waitFor(3);
+        String actual = case12Page.cardPagefirstProductQuantityNumber.getText();
+        String expected = miktar + "";
+        System.out.println(actual);
+        Assert.assertTrue(actual.equals(expected));
+
+    }
 
 }

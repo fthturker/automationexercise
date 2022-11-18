@@ -83,11 +83,20 @@ public class AutomationexecPages {
     public WebElement productsPageAllPrpductsYazisi;
     @FindBy(xpath = "//a[text()='View Product']")
     public List<WebElement> productsPageAllProducList;
+
     @FindBy(css = "[class=\"single-products\"]")
     public List<WebElement> productPageAllProductDetailList;
 
     @FindBy(css = "[class=\"product-information\"]")
     public WebElement productPageFirstProductDetailPage;
+
+
+
+
+
+
+
+
 
     @FindBy(css = "[id=\"search_product\"]")
     public WebElement productPagesSearchInputBox;

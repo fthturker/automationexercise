@@ -37,8 +37,8 @@ public class VerifySubscriptionInHomePageStepDefinitions {
     }
     @When("Verify success message You have been successfully subscribed! is visible")
     public void verify_success_message_you_have_been_successfully_subscribed_is_visible() {
-
-        // Assert.assertTrue(case10Page.verifyMessageText.isDisplayed());
+        Assert.assertTrue(case10Page.mainpageFooterSuccesScripeYazisi.isDisplayed());
+        Log.info("Basariyla abone oldunuz mesaji dogrulandi");
     }
 
 }

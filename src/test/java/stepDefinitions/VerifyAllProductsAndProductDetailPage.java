@@ -32,7 +32,7 @@ public class VerifyAllProductsAndProductDetailPage {
 
     @When("The products list is visible")
     public void the_products_list_is_visible() {
-        // Assert.assertTrue(case08Page.urunListVisible.isDisplayed());
+         case08Page.urunListVisible.stream().forEach(t-> System.out.println(t.getText()));
     }
 
     @When("Click on {string} of first product")

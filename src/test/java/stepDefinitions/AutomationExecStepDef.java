@@ -26,70 +26,48 @@ public class AutomationExecStepDef {
     String brandProductTitle;
     String brandproductYazi;
 
-
-
-
     @Then("email kutusuna email girer")
     public void emailKutusunaEmailGirer() {
         ap.loginSayfasıEmailAdressInput.sendKeys("puturgeli1isi@gmail.com");
-
     }
-
     @And("password kutusuna password girer")
     public void passwordKutusunaPasswordGirer() {
         ap.loginSayfasiPasswordInput.sendKeys("automationaA11-");
     }
-
     @When("login butonuna tıklar")
     public void loginButonunaTıklar() {
         ap.loginSayfasiLoginButonu.click();
     }
 
-
     @And("kullanici Products butonuna tiklar")
     public void kullaniciProductsButonunaTiklar() {
         ap.headerProductsButonu.click();
     }
-
     @When("kullanici acilan sayfada ALL PRODUCTS yazisinin oldugunu teyit eder")
     public void kullaniciAcilanSayfadaALLPRODUCTSYazisininOldugunuTeyitEder() {
         Assert.assertTrue(ap.productsPageAllPrpductsYazisi.isDisplayed());
     }
-
-    @Then("kullanici urun listesinin gorunur oldugunu teyit eder")
-    public void kullaniciUrunListesininGorunurOldugunuTeyitEder() {
-        ap.productPageAllProductDetailList.stream().forEach(t -> System.out.println(t.getText()));
-
-    }
-
     @And("kullanici ilk urun icin view product butonuna basar")
     public void kullaniciIlkUrunIcinViewProductButonunaBasar() {
         ap.productsPageAllProducList.get(0).click();
-
     }
-
     @Then("kullanici urun detay sayfasinin acildiginı teyit eder")
     public void kullaniciUrunDetaySayfasininAcildiginıTeyitEder() {
         Assert.assertTrue(ap.productsPageAllPrpductsYazisi.isDisplayed());
     }
-
     @Then("kullanici acilan sayfada urun adı, kategori, fiyat, bulunabilirlik, durum, marka bilgilerinin gorunur oldugunu teyit eder")
     public void kullaniciAcilanSayfadaUrunAdıKategoriFiyatBulunabilirlikDurumMarkaBilgilerininGorunurOldugunuTeyitEder() {
         Assert.assertTrue(ap.productPageFirstProductDetailPage.isDisplayed());
     }
-
     @Then("kullanici product sayfasindaki search kutusuna bir urun adi yazip arama yapar")
     public void kullaniciProductSayfasindakiSearchKutusunaBirUrunAdiYazipAramaYapar() {
-
         ap.productPagesSearchInputBox.sendKeys("Tshirt");
         ap.productPageSearchButonBox.click();
     }
-
     @Then("kullanici acilan sayfada SEARCHED PRODUCTS yazisini gordugunu teyit eder")
     public void kullaniciAcilanSayfadaSEARCHEDPRODUCTSYazisiniGordugunuTeyitEder() {
         Assert.assertTrue(ap.productPageSearchProductYazisi.isDisplayed());
     }
-
     @And("kullanici arama ile ilgili tum urunlerin gorundugune emin olur")
     public void kullaniciAramaIleIlgiliTumUrunlerinGorunduguneEminOlur() {
         int expectedCount = 0;
@@ -97,14 +75,11 @@ public class AutomationExecStepDef {
             if (w.getText().contains("Tshirt") || w.getText().contains("T-Shirt") || w.getText().contains("T SHIRT")) {
                 expectedCount++;
             }
-
         }
         int actualCount = ap.productPageSearchResultList.size();
         System.out.println("expected: " + expectedCount + " actual: " + actualCount);
         Assert.assertEquals(expectedCount, actualCount);
-
     }
-
     @And("kullanici sayfanin en altina kadar iner")
     public void kullaniciSayfaninEnAltinaKadarIner() {
         ReUsableMethods.scrollToWebelementVisible(ap.mainPageFooterSubscriptionYazisi);
@@ -115,11 +90,13 @@ public class AutomationExecStepDef {
         Assert.assertTrue(ap.mainPageFooterSubscriptionYazisi.isDisplayed());
     }
 
-    @Then("kullanici subscription input box'ına email adresini yapıp ok tusuna tiklar")
-    public void kullaniciSubscriptionInputBoxInaEmailAdresiniYapıpOkTusunaTiklar() {
-        ap.mainPageFooterSubscriptionInputBox.sendKeys(Faker.instance().internet().emailAddress());
-        ap.mainpageFooterSubscriptionButonu.click();
-    }
+
+
+
+
+
+
+
 
     @And("kullanici You have been successfully subscribed! yazisini gordugunu teyit eder")
     public void kullaniciYouHaveBeenSuccessfullySubscribedYazisiniGordugunuTeyitEder() {

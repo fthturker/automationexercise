@@ -21,4 +21,7 @@ public class Case10Page {
 
     @FindBy(xpath = "//*[@id=\"contact-page\"]/div[2]/div[1]/div/div[2]")
     public WebElement verifyMessageText;
+
+    @FindBy(css = "[id=\"success-subscribe\"]")
+    public WebElement mainpageFooterSuccesScripeYazisi;
 }

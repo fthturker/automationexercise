@@ -13,4 +13,6 @@ public class Case11Page {
     @FindBy(xpath = "//header[@id='header']//li[1]")
     public WebElement cartButton;
 
+
+
 }

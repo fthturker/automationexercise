@@ -87,7 +87,7 @@ Feature: US001 Automation Exercise sayfasindaki testler yapilmalidir
     And Click 'Home' button and verify that landed to home page successfully
     And Close browser
 
-  @aetc07
+  @aetc01
   Scenario: TC07 Verify Test Cases Page
     Given Launch browser and Navigate to url "automationexerciseUrl"
     When Verify that home page is visible successfully
@@ -95,7 +95,7 @@ Feature: US001 Automation Exercise sayfasindaki testler yapilmalidir
     And Verify user is navigated to test cases page successfully
     And Close browser
 
-  @aetc08
+  @aetc01
   Scenario: TC08 Verify All Products and product detail page
     Given Launch browser and Navigate to url "automationexerciseUrl"
     When Verify that home page is visible successfully
@@ -107,7 +107,7 @@ Feature: US001 Automation Exercise sayfasindaki testler yapilmalidir
     And Verify that detail detail is visible: product name, category, price, availability, condition, brand
     And Close browser
 
-  @aetc09
+  @aetc01
   Scenario: TC09 Search Product
     Given Launch browser and Navigate to url "automationexerciseUrl"
     When Verify that home page is visible successfully
@@ -118,7 +118,7 @@ Feature: US001 Automation Exercise sayfasindaki testler yapilmalidir
     And Verify all the products related to search are visible
     And Close browser
 
-  @aetc10
+  @aetc01
   Scenario: TC10 Verify Subscription in home page
     Given Launch browser and Navigate to url "automationexerciseUrl"
     When Verify that home page is visible successfully
@@ -128,7 +128,7 @@ Feature: US001 Automation Exercise sayfasindaki testler yapilmalidir
     And Verify success message You have been successfully subscribed! is visible
     And Close browser
 
-  @aetc11
+  @aetc01
   Scenario: TC11 Verify Subscription in cart page
     Given Launch browser and Navigate to url "automationexerciseUrl"
     When Verify that home page is visible successfully

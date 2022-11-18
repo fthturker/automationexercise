@@ -5,6 +5,8 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import utilities.Driver;
 
+import java.util.List;
+
 public class Case08Page {
     public Case08Page() {
         PageFactory.initElements(Driver.getDriver(), this);
@@ -16,8 +18,8 @@ public class Case08Page {
     @FindBy(xpath = "//h2[@class='title text-center']")
     public WebElement allProductsText;
 
-    @FindBy(css = "//div[@class='features_items']")
-    public WebElement urunListVisible;
+    @FindBy(css = "[class=\"single-products\"]")
+    public List<WebElement> urunListVisible;
 
     @FindBy(xpath = "(//a[contains(text(),'View Product')])[1]")
     public WebElement viewProduct;
