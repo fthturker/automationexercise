@@ -139,7 +139,7 @@ Feature: US001 Automation Exercise sayfasindaki testler yapilmalidir
     And Verify success message You have been successfully subscribed! is visible
     And Close browser
 
-  @aetc12
+  @aetc01
   Scenario: TC12 Add Products in cart
     Given Launch browser and Navigate to url "automationexerciseUrl"
     When Verify that home page is visible successfully
@@ -151,4 +151,53 @@ Feature: US001 Automation Exercise sayfasindaki testler yapilmalidir
     And Verify both products are added to Cart
     And Verify their prices, quantity and total price
     And Close browser
+
+  @aetc01
+  Scenario: TC13 Verify Product Quantity in cart
+    Given Launch browser and Navigate to url "automationexerciseUrl"
+    When Verify that home page is visible successfully
+    And Click 'View Product' for any product on home page
+    And Verify product detail is opened
+    And Increase quantity to 4
+    And Click Add to cart button
+    And Click View Cart button
+    And Verify thatt product is displayed in cart page with 4 exact quantity
+
+  @aetc14
+  Scenario: TC14 Place Order: Register while Checkout
+    Given Launch browser and Navigate to url "automationexerciseUrl"
+    When Verify that home page is visible successfully
+    And Add products to cart
+   And Verify that cart page is displayed
+   And Click Proceed To Checkout
+   And Click Register Login button
+   And Fill all details in Signup and create account
+   And Verify ACCOUNT CREATED! and click Continue button
+   And Verify Logged in as username at top
+   And Click Cart button
+   And Click 'Proceed To Checkout' button
+   #14. Verify Address Details and Review Your Order
+   #15. Enter description in comment text area and click 'Place Order'
+   #16. Enter payment details: Name on Card, Card Number, CVC, Expiration date
+   #17. Click 'Pay and Confirm Order' button
+   #18. Verify success message 'Your order has been placed successfully!'
+   #19. Click 'Delete Account' button
+   #20. Verify 'ACCOUNT DELETED!' and click 'Continue' button
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

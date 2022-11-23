@@ -79,8 +79,10 @@ public class AutomationexecPages {
 
     @FindBy(xpath = "//a[text()=' Products']")
     public WebElement headerProductsButonu;
+
     @FindBy(xpath = "//h2[text()='All Products']")
     public WebElement productsPageAllPrpductsYazisi;
+
     @FindBy(xpath = "//a[text()='View Product']")
     public List<WebElement> productsPageAllProducList;
 
