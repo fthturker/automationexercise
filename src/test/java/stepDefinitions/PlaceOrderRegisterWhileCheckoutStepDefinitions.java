@@ -1,5 +1,6 @@
 package stepDefinitions;
 
+import com.github.javafaker.Faker;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.When;
 import org.junit.Assert;
@@ -54,7 +55,7 @@ public class PlaceOrderRegisterWhileCheckoutStepDefinitions {
     public void fillAllDetailsInSignupAndCreateAccount() {
         Driver.waitAndSendText(case01Page.name, "Yavuzz");
         Driver.wait(1);
-        Driver.waitAndSendText(case01Page.email, "yavuzturk251@gmail.com");
+        Driver.waitAndSendText(case01Page.email, "yavuzturk2505@gmail.com");
         Driver.wait(1);
         Log.info("Adi ve e-posta adresi girildi");
         Driver.waitAndClick(case01Page.signUpButton, 1);
@@ -125,6 +126,75 @@ public class PlaceOrderRegisterWhileCheckoutStepDefinitions {
         Assert.assertTrue(case01Page.loggedUsernameText.isDisplayed());
         Driver.wait(1);
         Log.info("Kullanici adi olarak oturum acildi ifadesinin gorunur oldugu dogrulandi");
+    }
+
+    @And("Click Cart{int} button")
+    public void clickCartButton(int arg0) {
+        Driver.waitAndClick(case14Page.headerCartButonu,1);
+        Driver.wait(2);
+    }
+
+    @And("Click Proceed To Checkout button")
+    public void clickProceedToCheckoutButton() {
+        Driver.waitAndClick(case14Page.cardpageProceedCheckOutButonu,1);
+        Driver.wait(2);
+    }
+
+    @And("Verify Address Details and Review Your Order")
+    public void verifyAddressDetailsAndReviewYourOrder() {
+        String expectedData = "YOUR DELIVERY ADDRESS";
+        String actualData = case14Page.cardpageAdressYaziElemet.getText();
+        System.out.println(expectedData + "\n" + actualData);
+
+        String expectedTitle = "Blue Top";
+        String actualTitle = case14Page.cardpageIlkUrunTitle.getText();
+
+        System.out.println(expectedTitle + "\n" + actualTitle);
+        Assert.assertTrue(expectedData.equals(actualData));
+        Assert.assertTrue(expectedTitle.equals(actualTitle));
+    }
+
+    @And("Enter description in comment text area and click Place Order")
+    public void enterDescriptionInCommentTextAreaAndClickPlaceOrder() {
+        case14Page.cardpageTextArea.sendKeys(Faker.instance().currency().name());
+        case14Page.cardPagePlaceOrderButonu.click();
+    }
+
+    @And("Enter payment details: Name on Card, Card Number, CVC, Expiration date")
+    public void enterPaymentDetailsNameOnCardCardNumberCVCExpirationDate() {
+        Faker faker = new Faker();
+        Actions actions = new Actions(Driver.getDriver());
+        actions.click(case14Page.paymentpagePayAndConfirmOrderButon).
+                sendKeys(faker.business().creditCardType()).
+                sendKeys(Keys.TAB).sendKeys(faker.business().creditCardNumber()).
+                sendKeys(Keys.TAB).
+                sendKeys("456").
+                sendKeys(Keys.TAB).
+                sendKeys(faker.business().creditCardExpiry()).
+                sendKeys(Keys.TAB).
+                sendKeys("2023").
+                perform();
+    }
+
+    @And("Click Pay and Confirm Order button")
+    public void clickPayAndConfirmOrderButton() {
+        case14Page.paymentpagePayAndConfirmOrderButon.click();
+    }
+
+    @And("Verify ACCOUNT DELETED! and click Continue button")
+    public void verifyACCOUNTDELETEDAndClickContinueButton() {
+        String deleteAccountTextText = case01Page.deleteAccountText.getText();
+        Assert.assertTrue(deleteAccountTextText.contains("ACCOUNT DELETED!"));
+        Driver.wait(2);
+        Log.info("Hesabi Silindi gorunur");
+        Driver.waitAndClick(case01Page.deleteContinueButton, 1);
+        Driver.wait(1);
+        Log.info("Devam dugmesine tiklandi");
+    }
+
+    @And("Verify success message Your order has been placed successfully!")
+    public void verifySuccessMessageYourOrderHasBeenPlacedSuccessfully() {
+        Assert.assertTrue(case14Page.paymentpageSuccesFullyOrderYaziElement.isDisplayed());
     }
 }
 

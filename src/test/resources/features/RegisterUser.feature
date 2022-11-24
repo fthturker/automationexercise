@@ -174,15 +174,15 @@ Feature: US001 Automation Exercise sayfasindaki testler yapilmalidir
    And Fill all details in Signup and create account
    And Verify ACCOUNT CREATED! and click Continue button
    And Verify Logged in as username at top
-   And Click Cart button
-   And Click 'Proceed To Checkout' button
-   #14. Verify Address Details and Review Your Order
-   #15. Enter description in comment text area and click 'Place Order'
-   #16. Enter payment details: Name on Card, Card Number, CVC, Expiration date
-   #17. Click 'Pay and Confirm Order' button
-   #18. Verify success message 'Your order has been placed successfully!'
-   #19. Click 'Delete Account' button
-   #20. Verify 'ACCOUNT DELETED!' and click 'Continue' button
+   And Click Cart1 button
+   And Click Proceed To Checkout button
+   And Verify Address Details and Review Your Order
+   And Enter description in comment text area and click Place Order
+   And Enter payment details: Name on Card, Card Number, CVC, Expiration date
+   And Click Pay and Confirm Order button
+   And Verify success message Your order has been placed successfully!
+   And Click Delete Account button
+   And Verify ACCOUNT DELETED! and click Continue button
 
 
 

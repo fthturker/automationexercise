@@ -159,18 +159,18 @@ public class RegisterUserStepdefinitions {
 
     @Given("Click Delete Account button")
     public void click_delete_account_button() {
-       // Driver.waitAndClick(case01Page.deleteAccount, 1);
+        Driver.waitAndClick(case01Page.deleteAccount, 1);
         Driver.wait(1);
         Log.info("Hesabi Sil dugmesi tiklandi");
     }
 
     @Given("Verify that ACCOUNT DELETED! is visible and click Continue button")
     public void verify_that_account_deleted_is_visible_and_click_continue_button() {
-       // String deleteAccountTextText = case01Page.deleteAccountText.getText();
-       // Assert.assertTrue(deleteAccountTextText.contains("ACCOUNT DELETED!"));
+        String deleteAccountTextText = case01Page.deleteAccountText.getText();
+        Assert.assertTrue(deleteAccountTextText.contains("ACCOUNT DELETED!"));
         Driver.wait(2);
         Log.info("Hesabi Silindi gorunur");
-       // Driver.waitAndClick(case01Page.deleteContinueButton, 1);
+        Driver.waitAndClick(case01Page.deleteContinueButton, 1);
         Driver.wait(1);
         Log.info("Devam dugmesine tiklandi");
     }
