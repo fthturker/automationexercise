@@ -48,7 +48,7 @@ public class RegisterUserStepdefinitions {
     public void enter_name_and_email_address() {
         Driver.waitAndSendText(case01Page.name, "Yavuz");
         Driver.wait(1);
-        Driver.waitAndSendText(case01Page.email, "yavuzturk2071@gmail.com");
+        Driver.waitAndSendText(case01Page.email, "yavuzturk2621@gmail.com");
         //actions.click(case01Page.email).sendKeys(faker.internet().emailAddress()).perform();
         Driver.wait(1);
         Log.info("Adi ve e-posta adresi girildi");

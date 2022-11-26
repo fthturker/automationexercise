@@ -18,9 +18,9 @@ public class LoginUserWithCorrectEmailAndPasswordStepDefinitions {
     }
     @When("Enter correct email address and password")
     public void enter_correct_email_address_and_password() {
-        Driver.waitAndSendText(case02Page.loginEmail,"puturgeli1isi@gmail.com");
+        Driver.waitAndSendText(case02Page.loginEmail,"yavuzturk2621@gmail.com");
         Driver.wait(1);
-        Driver.waitAndSendText(case02Page.loginPassword,"automationaA11-");
+        Driver.waitAndSendText(case02Page.loginPassword,"1234567");
         Driver.wait(1);
         Log.info("Dogru e-posta adresini ve sifre girildi");
     }
